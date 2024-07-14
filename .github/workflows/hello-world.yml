@@ -1,9 +1,0 @@
-########Hello World ############
-name: helo-world
-on: push
-jobs:
-  my-job:
-    runs-on: ubuntu:latest
-    steps:
-      - name: my-step
-        run: echo "hello-World"
